@@ -10,7 +10,7 @@ const Form = () => {
       email: "",
     },
     validationSchema: formValidationScheme,
-    onSubmit: async (values: any) => {
+    onSubmit: async () => {
       await toast.success("E bültene başarılı bir şekilde kaydoldunuz!");
       navigate("/success");
     },
